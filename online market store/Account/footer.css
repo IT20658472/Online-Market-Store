@@ -1,0 +1,31 @@
+.fixed-footer{
+    width: 100%;
+    position:fixed;
+    left: 0;
+    bottom: 0;
+    z-index: 10;
+    border: #0d0d0d;
+    height: 30px;
+    background-color:#e6e6e6;
+}
+.fixed-footer .site-ratings{
+    width: auto;
+    height: 20px;
+    padding: 5px;
+}
+.fixed-footer a.right-end{
+    height: 20px;
+    padding: 5px;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+a.right-end{
+    color:black;
+    transition: all 0.3s ease 0s;
+}
+
+a.right-end:hover{
+    color:#ff471a;
+}

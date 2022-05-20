@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet"
+    href="head.css">
+    <link rel="stylesheet"
+    href="footer.css">
+    <title>feedback page</title>
+    <style>
+       
+        h2{
+           margin-top: 50px;
+           text-align: center;
+           font-size: 750; 
+           color:red;
+        }
+        button{
+            margin-top: 50px;
+            Margin-right:50px;
+
+        }    
+        .image{
+            text-align: center;  
+        }
+        .catogory{
+            padding:-405px 40px;
+            padding:10px;
+            length:50px
+            Margin-right: 50px;
+            font-size: 50;
+            color:red;
+            border:3px black;
+        }
+
+        .inputsub{
+            margin:60px;
+            padding:10px 90px;
+            width:100px;
+            length:500px;
+            margin-left: 350px;
+            color: blue;
+        }
+        .buttonsub{
+            padding: 10px 20px;
+            Margin-left:-250px;
+            top:-100px;
+            border: 3px rgb(119, 37, 37); display:block;
+            position:relative;
+            width:1000px;
+            length:1000px;
+            right:-950px;
+            top:-100px;
+            color: blue;
+		}	
+		.input1[type="radio"]{
+			margin: 0 10px 0 100px;
+		}
+		.input2[type="radio"]{
+			margin: 0 10px 0 150px;
+		}
+		
+		
+ 
+    </style>
+</head>
+    <body style="background-image:url(image344.jpg)">
+        <div class="head">
+            <header class="home_nav_bar">
+                <!--<img class="home_logo" src="home_logo.png" alt="home_tab_logo">-->
+                    <img class="title" src="title.png" alt="home_tab_title">
+                    <input type="text" placeholder="Serch your item...">
+                    <ul class="home_nav_order">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Cart</a></li>
+                        <li><a href="#">Wish list</a></li>
+                        <li><a href="#">Account</a></li>
+                    </ul> 
+                </header> 
+                    <!------------------------------------------------------------------------------------------------------------>    
+              <!--login navigation bar-->  
+              <header class="login_nav_bar">
+                <ul class="login_nav_order">
+                    <li><a href="#">Payment method</a></li>
+                    <li><a href="#">Contact us</a></li>
+                    <li><a href="#">Help</a></li>
+                </ul> 
+                <a href="#"><button class="log_btn">Log in</a></button> 
+                <a href="#"><button class="sign_btn">Sign in</a></button> 
+            </header>
+        </header>
+    </div> 
+    <div class="category_nav">
+        <h3 class="category_name">Category</h3><br>
+        <ul class="cat">
+            <li><a class="cat" href="#" id="fashion_link">Fasion</a></li>
+            <li><a class="cat" href="#" id="electronics_link">Electronics</a></li>
+            <li><a class="cat" href="#" id="sports_link">Sports</a></li>
+            <li><a class="cat" href="#" id="home_and_garden_link">Home & Garden</a></li>
+        </ul>
+</div>
+
+
+	<form name="FeedbackForm" method="POST" action="FeedbackForm.php">
+		
+		<h2>We would like your to improve our website. </h2>
+		<h2>* What is your opinion of this page? </h2>
+		
+		<div class="image">
+			<button>  <img class="image" src="hand.png" width="50"></image> </button>  
+			<button>  <img class="image" src="images.png" width="50"></image> </button>      
+			<button>   <img class="image" src="images.jpg" width="50"></image> </button>
+			<button>   <img class="image" src="images (3).jpg" width="50"></image> </button>
+			<button>   <img class="image" src="images (4).jpg" width="50"></image> </button>
+			<button>   <img class="image" src="images (5).jpg" width="50"></image> </button>
+			
+		<br/>
+		<br/>
+
+
+
+		
+		<div >	
+			<label class="radio-inline">
+				<input class="input1" name="face" type="radio" value="Happy">
+			</label>	
+			<label class="radio-inline">	
+				<input class="input1" name="face" type="radio" value="sad" checked=checked">
+			</label>
+				
+			<label class="radio-inline">
+				<input class="input1" name="face" type="radio" value="great" checked=checked">
+			</label>	
+			
+			<label class="radio-inline">
+				<input class="input1" name="face" type="radio" value="fantastic" checked=checked">
+			</label>
+			
+			<label class="radio-inline">
+				<input class="input1" name="face" type="radio" value="Love" checked=checked">
+			</label>
+		</div>			
+		
+		
+  
+		
+		
+		
+		
+		</div>
+			<h2>* Please select your feedback category below</h2>
+		   
+			<center>
+			<div class="catogory"   
+				button class="catogory"
+					 type="button">
+				<button>  <img class="image" src="hand.png" width="50"></image> </button>  	 
+				<button><b>SUGGESTION</b></button>
+				<button><b>SOMETHING IS NOT <br> QUITE RIGHT</b></button>
+				<button><b>COMPLEMENT</b></button>
+			</div>
+			
+		<div >	
+			<label class="radio-inline">
+				<input class="input2" name="category" type="radio" value="Suggestion">
+			</label>	
+			<label class="radio-inline">	
+				<input class="input2" name="category" type="radio" value="Something" checked=checked" >
+			</label>
+				
+			<label class="radio-inline">
+				<input class="input2" name="category" type="radio" value="Complement" checked=checked">
+			</label>	
+		</div>	
+			
+			
+			
+			
+			
+			</Center>
+			<h2>* Please leave your feedback category below</h2>
+			
+			<center><textarea  name="comment" rows="5" cols="100" required></textarea></center>
+			<br/>
+			<br/>
+
+
+			<div class="buttonsub" >
+			<button>SUBMIT</button>
+			</div>
+			
+			
+	</form>
+        
+    
+     <!-------------------------Footer---------------------------------->
+
+    <div class="fixed-footer secondary-color">
+        <a class="right-end" href="#">About Us</a>
+    </div>  
+    
+</body>
+</html>
+
+

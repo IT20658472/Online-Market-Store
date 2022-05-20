@@ -1,0 +1,94 @@
+.userDetails{ 
+
+    width: 600px;
+    height: 405px;
+    position: relative;
+    left: 175px;
+    top: -297px;
+    
+}
+
+.proimg{
+    padding: 10px;
+    margin-bottom: 50px;
+    background-color: lightblue;
+    display: block;
+}
+.pimg{
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    display: block;
+}
+.mng{
+
+    margin-top: -2px;
+    text-align: center;
+}
+.mng :hover{
+    color: crimson;
+}
+
+.Detail li{
+    margin-bottom: 40px;
+}
+
+.msg{
+    height: fit-content;
+    width: fit-content;
+    padding: 10px;
+    border-radius: 5px;
+    display: block;
+    background-color: gray;
+    position: relative;
+    top: -700px;
+    right: -1250px;
+
+    
+}
+.msg :hover{
+    color: black;
+}
+
+.orders{
+    position: relative;
+    right: -1000px;
+    top: -500px;
+    display:block;
+}
+
+.orders table{
+    border-collapse: separate;
+    border-spacing: 100px 50px;
+}
+
+
+.tdo{
+    text-align: center;
+    border-radius: 5px;
+    width: 30px;
+    height: auto;
+    background-color: rosybrown;
+     
+
+ }
+
+
+ .feedback table{
+     
+    border-collapse: separate;
+    border-spacing: 95px 5px;
+     position: relative;
+     left: 160px;
+     bottom: 500px;
+     text-emphasis-color: white;
+
+     background-color: rgb(92, 86, 86);
+ }
+
+.fd:hover{
+    background-color: rgb(234, 236, 240);
+}

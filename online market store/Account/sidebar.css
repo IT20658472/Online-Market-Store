@@ -1,0 +1,38 @@
+.category_nav{
+    display: block;
+    width: 300px;
+    height: 300px;
+    position: relative;
+    top:10px; 
+    left:10px;
+    background-color: white;
+}
+
+.category_name{
+    color:black;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight:100px;
+}
+
+ul.cat{
+    list-style: none;
+}
+
+ul.cat li{
+    padding:12px 10px;  
+}
+
+a.cat{
+    font-weight: 800px;
+    font-size: 14px;
+    color:black;
+}
+
+ul.cat li a{
+    transition: all 0.3s ease 0s;
+}
+
+ul.cat li a:hover{
+    color:#ff471a;
+}
+

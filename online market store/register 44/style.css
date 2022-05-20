@@ -1,0 +1,41 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+h1{
+    text-align: center;
+    color:red
+}
+.image{
+      text-align: center;  
+}
+
+
+
+.mailbox input{
+    margin: 20px;
+    padding: 10px 40px;
+    Margin-right:500px;
+    color:rgba(19, 12, 12, 0.712);
+    border:3px solid rgb(0, 38, 255);
+   
+}
+.mailboxsec input{
+    margin: 20px;
+    padding: 10px 40px;
+    Margin-right:500px;
+    color:rgba(19, 12, 12, 0.712);
+    border:3px solid rgb(0, 38, 255);
+   
+}
+button{
+    padding: 1px 20px;
+    Margin-right:500px;
+    background:blue;
+    border: 3px black;
+    border-radius: 10px;
+}
+button:hover{
+    background-color:gray;
+}
